@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+    database:
+        image: 'mysql:latest'
+        restart: always
+        container_name: videoflix_db
+        ports:
+            - '6606:3306'
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_DATABASE: videoflix_db
+        volumes:
+            - ./init:/docker-entrypoint-initdb.d
+    
+    admin_database:
+        depends_on: 
+            - database
+        image: phpmyadmin/phpmyadmin
+        container_name: phpmyadmin
+        restart: always
+        environment: 
+            PMA_HOST: database
+        ports:
+            - '8080:80'
