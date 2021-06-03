@@ -35,6 +35,8 @@ Nous nous appuierons sur des données normalisées pour le pays et la langue
 Cet environnement fournit une base de données mysql avec un jeu de données ainsi que phpmyadmin
 
 ### Pré-requis
+https://docs.docker.com/get-docker/
+
 * Docker
 * Docker-compose
 
