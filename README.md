@@ -61,6 +61,16 @@ En savoir plus:
 docker-compose up -d
 ```
 
+### Lister vos containers
+
+```bash
+$ docker-compose ps
+    Name               Command                 State             Ports
+---------------------------------------------------------------------------------------------
+phpmyadmin     /docker-entrypoint.sh apac ...   Up      0.0.0.0:8080->80/tcp
+videoflix_db   docker-entrypoint.sh mysqld      Up      0.0.0.0:6606->3306/tcp, 33060/tcp
+```
+
 ### Ouvrir phpmyadmin sur un navigateur
 http://localhost:8080
 
