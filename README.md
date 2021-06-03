@@ -90,7 +90,7 @@ Ci joint l'ensemble des requêtes à executer
 
 7 - Écrire une requête qui retourne les titres de tous les films qui n'ont pas de notes.
 
-8 - Ecrivez une requête qui retourne les titres des films avec les ID 5, 6, 8
+8 - Écrire une requête qui retourne les titres des films avec les ID 5, 6, 8
 
 9 - Écrire une requête qui retourne une liste de film avec l'annéedont le titre des films contient les mots "Boogie" ou "Nights".
 
