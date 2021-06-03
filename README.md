@@ -37,8 +37,8 @@ Cet environnement fournit une base de données mysql avec un jeu de données ain
 ### Pré-requis
 https://docs.docker.com/get-docker/
 
-* Docker
-* Docker-compose
+* Docker (minimum version 18.06)
+* Docker-compose (minimum version 1.25.0)
 
 Merci de vérfier les pré-requis avec la commande suivante
 
