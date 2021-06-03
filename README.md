@@ -44,11 +44,11 @@ Téléchargement: https://docs.docker.com/get-docker/
 Merci de vérfier les pré-requis avec la commande suivante
 
 ```bash
-docker -v
+$ docker -v
 ``` 
 
 ```bash
-docker-compose -v
+$ docker-compose -v
 ``` 
 En savoir plus:
 * https://docs.docker.com/compose/
@@ -58,7 +58,7 @@ En savoir plus:
 ### Lancer l'environnement
 
 ```bash
-docker-compose up -d
+$ docker-compose up -d
 ```
 
 ### Lister vos containers
