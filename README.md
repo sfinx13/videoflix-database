@@ -35,7 +35,8 @@ Nous nous appuierons sur des données normalisées pour le pays et la langue
 Cet environnement fournit une base de données mysql avec un jeu de données ainsi que phpmyadmin
 
 ### Pré-requis
-https://docs.docker.com/get-docker/
+
+Téléchargement: https://docs.docker.com/get-docker/
 
 * Docker (minimum version 18.06)
 * Docker-compose (minimum version 1.25.0)
@@ -49,6 +50,10 @@ docker -v
 ```bash
 docker-compose -v
 ``` 
+En savoir plus:
+* https://docs.docker.com/compose/
+* https://docs.docker.com/compose/compose-file/
+
 
 ### Lancer l'environnement
 
