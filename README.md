@@ -81,6 +81,10 @@ password: password
 
 ![schema-entity-relationship-model.png](phpmyadmin.png)
 
+### Aperçu de docker-compose CLI
+https://docs.docker.com/compose/reference/
+
+
 ## Requêtes SQL
 Ci joint l'ensemble des requêtes à executer
 
