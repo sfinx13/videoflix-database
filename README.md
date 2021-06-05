@@ -126,7 +126,7 @@ Ci joint l'ensemble des requêtes à executer
 
 7 - Écrire une requête qui retourne les années par ordre croissant ou au moins un film a été produit et qui ont reçu une note de plus de 3 étoiles.
 
-8 - Écrire une requête qui retourne les titres des films qui n'ont pas de notes.
+8 - Écrire une requête qui retourne les titres des films FR et US qui n'ont pas été visualisé.
 
 9 - Écrire une requête qui retourne les noms de tous les utlisateurs qui n'ont pas noté.
 
