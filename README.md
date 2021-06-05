@@ -156,4 +156,22 @@ Ci joint l'ensemble des requêtes à executer
 
 22 - Écrire une requête qui retourne le nombre de films et leur note moyenne par genre et dont la note est supérieur à 4.
 
+23 - Ecrire une requete qui retourne les 10 plus gros consommateurs de films dans l'ordre croissant. Afficher le nom complet sur une seule colonne et le temps de visualisation est à retourner.
+
+24 - Ecrire une requete qui retourne les 5 moins gros consommateurs de film dans l'ordre croissant. Afficher le nom complet sur une seule colonne, l'email et le temps de visualisation est à retourner.
+
+25 - Ecrire une requete qui retourne les trois films les plus vues ainsi que leur note moyenne arrondi à l'entier supérieur.
+
+26 - Ecrire une requete qui retourne les films vues mais jamais noté.
+
+27 - Ecrire une requete qui retourne les genres de films les plus vues de l'année de 2020.
+
+28 - Ecrire une requete qui retourne les utilisateurs qui n'ont vu aucun film.
+
+29 - Ecrire une requete qui retourne le total des films vues par mois toutes années confondus.
+
+30 - Ecrire une requete qui retourne le temps de visualisation mensuel pour toutes utilisateurs.
+
+31 - Ecrire une requete retourne le mois ou on a vu le plus de film toute années confondu.
+
 
