@@ -168,7 +168,7 @@ Ci joint l'ensemble des requêtes à executer
 
 28 - Ecrire une requete qui retourne les utilisateurs qui n'ont vu aucun film.
 
-29 - Ecrire une requete qui retourne le total des films vues par mois toutes années confondus de l'année 2019 et 2020
+29 - Ecrire une requete qui retourne le total des films vues par mois de l'année 2019 et 2020
 
 30 - Ecrire une requete qui retourne le temps de visualisation mensuel pour toutes utilisateurs de l'année 2021
 
