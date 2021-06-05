@@ -71,6 +71,10 @@ phpmyadmin     /docker-entrypoint.sh apac ...   Up      0.0.0.0:8080->80/tcp
 videoflix_db   docker-entrypoint.sh mysqld      Up      0.0.0.0:6606->3306/tcp, 33060/tcp
 ```
 
+### Aperçu de docker-compose CLI
+https://docs.docker.com/compose/reference/
+
+
 ### Ouvrir phpmyadmin sur un navigateur
 http://localhost:8080
 
@@ -80,9 +84,6 @@ password: password
 ``` 
 
 ![schema-entity-relationship-model.png](phpmyadmin.png)
-
-### Aperçu de docker-compose CLI
-https://docs.docker.com/compose/reference/
 
 
 ## Requêtes SQL
