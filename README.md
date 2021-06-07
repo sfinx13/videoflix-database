@@ -119,7 +119,7 @@ Ci joint l'ensemble des requêtes à executer
 
 3 - Écrire une requête qui retourne tous les films qui ne sont pas américain.
 
-4 - Écrire une requête qui retourne le titre, l'année, la date de sortie du film, le réalisateur et l'acteur des films dont le critique est inconnu.
+4 - Écrire une requête qui retourne le titre, l'année, la date de sortie du film, le réalisateur et acteurs de films qui n'ont aucune critique.
 
 5 - Écrire une requête qui retourne le titre, l'année, la date de sortie, le réalisateur et l'acteur des films dont le critique est connu.
 
@@ -133,13 +133,13 @@ Ci joint l'ensemble des requêtes à executer
 
 10 - Écrire une requête qui retourne les utilisateurs qui ont noté plus d'un film.
 
-11 - Écrire une requête qui retourne le titre du film qui a le plus grand nombre d'étoiles par genre et le titre du film apparaît par ordre alphabétique.
+11 - Écrire une requête qui retourne le titre du film qui a le plus grand nombre d'étoiles par genre. Le titre du film apparaît par ordre alphabétique.
 
 12 - Écrire une requête qui retourne les noms de tous les utilisateurs qui ont noté le film American Beauty.
 
 13 - Écrire une requête qui retourne le prénom, nom et role joué de tous les acteurs qui ont joué dans le film «Annie Hall».
 
-14 - Écrire une requête qui retourne le prénom et nom du réalisateur de "Eyes Wide Shut" ainsi que l'année de sortie du film du film
+14 - Écrire une requête qui retourne le prénom et nom du réalisateur de "Eyes Wide Shut" ainsi que l'année de sortie du film.
 
 15 - Écrire une requête qui retourne le nom du film et du réalisateur (prénom et nom) don le rôle de Sean Maguire a été joué.
 
