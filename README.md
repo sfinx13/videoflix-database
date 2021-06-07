@@ -173,6 +173,6 @@ Ci joint l'ensemble des requêtes à executer
 
 30 - Ecrire une requete qui retourne le temps de visualisation mensuel pour toutes utilisateurs de l'année 2021
 
-31 - Ecrire une requete retourne le mois ou on a vu le plus de film toute années confondu.
+31 - Ecrire une requete qui retourne le mois ou on a vu le plus de film toute années confondu.
 
 
