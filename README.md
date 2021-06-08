@@ -121,7 +121,7 @@ Ci joint l'ensemble des requêtes à executer
 
 4 - Écrire une requête qui retourne le titre, l'année, la date de sortie du film, le réalisateur et acteurs de films qui n'ont aucune critique.
 
-5 - Écrire une requête qui retourne le titre, l'année, la date de sortie, le réalisateur et l'acteur des films dont le critique est connu.
+5 - Écrire une requête qui retourne le titre, l'année, la date de sortie, le réalisateur et l'acteur des films dont la critique existe.
 
 6 - Écrire une requête qui retourne les titres des films réalisés par le réalisateur Woddy Allen.
 
