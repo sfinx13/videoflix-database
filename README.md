@@ -176,3 +176,24 @@ Ci joint l'ensemble des requêtes à executer
 31 - Ecrire une requete qui retourne le mois ou on a vu le plus de film toute années confondu.
 
 
+
+
+
+## Correction requête SQL
+
+
+NB: Pour ceux qui utilise un OS autre que Linux, merci de vous assurez que make soit installé.
+
+https://fr.wikipedia.org/wiki/Make
+
+
+### Execution requete SQL
+```bash
+$ make request=1 basic
+```
+
+Pour executer la requête 10 du niveau basic
+
+```bash
+$ make request=10 basic
+```
