@@ -179,10 +179,10 @@ Ci joint l'ensemble des requêtes à executer
 
 
 
-## Correction requête SQL
+## Correction SQL
 
 
-NB: Pour ceux qui utilise un OS autre que Linux, merci de vous assurez que make soit installé.
+NB: Pour ceux qui utilise un OS autre que Linux, merci de vous assurer que make soit installé.
 
 https://fr.wikipedia.org/wiki/Make
 
@@ -196,4 +196,25 @@ Pour executer la requête 10 du niveau basic
 
 ```bash
 $ make request=10 basic
+```
+
+```bash
+=========================================================================================
+SQL:
+=========================================================================================
+-- 10 - Écrire une requête qui retourne l'ID d'un acteur ou membre de la direction dont le prénom est 'Woody' et le nom de famille est 'Allen'
+
+SELECT
+    id, firstname, lastname
+FROM
+    staff
+WHERE
+    firstname LIKE '%Woody%'
+        AND lastname LIKE '%Allen%';
+=========================================================================================
+RESULTS:
+=========================================================================================
+mysql: [Warning] Using a password on the command line interface can be insecure.
+id      firstname       lastname
+11      Woody   Allen
 ```
