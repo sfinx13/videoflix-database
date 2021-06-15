@@ -179,7 +179,7 @@ Ci joint l'ensemble des requêtes à executer
 
 
 
-## Correction requête SQL
+## Correction SQL
 
 
 NB: Pour ceux qui utilise un OS autre que Linux, merci de vous assurez que make soit installé.
