@@ -71,6 +71,10 @@ phpmyadmin     /docker-entrypoint.sh apac ...   Up      0.0.0.0:8080->80/tcp
 videoflix_db   docker-entrypoint.sh mysqld      Up      0.0.0.0:6606->3306/tcp, 33060/tcp
 ```
 
+### Aperçu de docker-compose CLI
+https://docs.docker.com/compose/reference/
+
+
 ### Ouvrir phpmyadmin sur un navigateur
 http://localhost:8080
 
@@ -80,9 +84,6 @@ password: password
 ``` 
 
 ![schema-entity-relationship-model.png](phpmyadmin.png)
-
-### Aperçu de docker-compose CLI
-https://docs.docker.com/compose/reference/
 
 
 ## Requêtes SQL
@@ -118,9 +119,9 @@ Ci joint l'ensemble des requêtes à executer
 
 3 - Écrire une requête qui retourne tous les films qui ne sont pas américain.
 
-4 - Écrire une requête qui retourne le titre, l'année, la date de sortie du film, le réalisateur et l'acteur des films dont le critique est inconnu.
+4 - Écrire une requête qui retourne le titre, l'année, la date de sortie du film, le réalisateur et acteurs de films qui n'ont aucune critique.
 
-5 - Écrire une requête qui retourne le titre, l'année, la date de sortie, le réalisateur et l'acteur des films dont le critique est connu.
+5 - Écrire une requête qui retourne le titre, l'année, la date de sortie, le réalisateur et l'acteur des films dont la critique existe.
 
 6 - Écrire une requête qui retourne les titres des films réalisés par le réalisateur Woddy Allen.
 
@@ -132,13 +133,13 @@ Ci joint l'ensemble des requêtes à executer
 
 10 - Écrire une requête qui retourne les utilisateurs qui ont noté plus d'un film.
 
-11 - Écrire une requête qui retourne le titre du film qui a le plus grand nombre d'étoiles par genre et le titre du film apparaît par ordre alphabétique.
+11 - Écrire une requête qui retourne le titre du film qui a le plus grand nombre d'étoiles par genre. Le titre du film apparaît par ordre alphabétique.
 
 12 - Écrire une requête qui retourne les noms de tous les utilisateurs qui ont noté le film American Beauty.
 
 13 - Écrire une requête qui retourne le prénom, nom et role joué de tous les acteurs qui ont joué dans le film «Annie Hall».
 
-14 - Écrire une requête qui retourne le prénom et nom du réalisateur de "Eyes Wide Shut" ainsi que l'année de sortie du film du film
+14 - Écrire une requête qui retourne le prénom et nom du réalisateur de "Eyes Wide Shut" ainsi que l'année de sortie du film.
 
 15 - Écrire une requête qui retourne le nom du film et du réalisateur (prénom et nom) don le rôle de Sean Maguire a été joué.
 
@@ -168,10 +169,10 @@ Ci joint l'ensemble des requêtes à executer
 
 28 - Ecrire une requete qui retourne les utilisateurs qui n'ont vu aucun film.
 
-29 - Ecrire une requete qui retourne le total des films vues par mois toutes années confondus.
+29 - Ecrire une requete qui retourne le total des films vues par mois de l'année 2019 et 2020
 
-30 - Ecrire une requete qui retourne le temps de visualisation mensuel pour toutes utilisateurs.
+30 - Ecrire une requete qui retourne le temps de visualisation mensuel pour toutes utilisateurs de l'année 2021
 
-31 - Ecrire une requete retourne le mois ou on a vu le plus de film toute années confondu.
+31 - Ecrire une requete qui retourne le mois ou on a vu le plus de film toute années confondu.
 
 
