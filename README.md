@@ -182,7 +182,7 @@ Ci joint l'ensemble des requêtes à executer
 ## Correction SQL
 
 
-NB: Pour ceux qui utilise un OS autre que Linux, merci de vous assurez que make soit installé.
+NB: Pour ceux qui utilise un OS autre que Linux, merci de vous assurer que make soit installé.
 
 https://fr.wikipedia.org/wiki/Make
 
