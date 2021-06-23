@@ -138,3 +138,7 @@ RESULTS:
 id      firstname       lastname
 11      Woody   Allen
 ```
+Pour se connecter à la base en ligne de commande
+```bash
+make mysql
+``` 
