@@ -135,7 +135,6 @@ WHERE
 ======================================================================================================
 RESULTS:
 ======================================================================================================
-mysql: [Warning] Using a password on the command line interface can be insecure.
 id      firstname       lastname
 11      Woody   Allen
 ```
