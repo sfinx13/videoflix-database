@@ -104,7 +104,7 @@ NB: Pour ceux qui utilise un OS autre que Linux, merci de vous assurer que make 
 https://fr.wikipedia.org/wiki/Make
 
 
-### Execution requete SQL
+### Execution requete SQL via make
 
 Pour executer la requête 23 du niveau normale
 
@@ -138,3 +138,7 @@ RESULTS:
 id      firstname       lastname
 11      Woody   Allen
 ```
+Pour se connecter à la base en ligne de commande
+```bash
+$ make mysql
+``` 
