@@ -91,11 +91,11 @@ Ci joint l'ensemble des requêtes à executer
 
 ### Requête niveau basique
 
-[SQLBASIC.md]()
+[SQLBASIC.md](SQLBASIC.md)
 
 ### Requête niveau normal
 
-[SQLNORMAL.md]()
+[SQLNORMAL.md](SQLNORMAL.md)
 
 ## Correction SQL
 
