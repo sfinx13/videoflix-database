@@ -1,5 +1,6 @@
 -- 15 - Écrire une requête qui retourne le nom du film et 
 -- du réalisateur (prénom et nom) don le rôle de Sean Maguire a été joué.
+
 SELECT m.title,
     CONCAT(
         director.firstname,

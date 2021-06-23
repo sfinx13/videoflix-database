@@ -2,7 +2,7 @@
 -- avec le titre, l'année, la date de sortie, 
 -- la durée du film et le prénom et le nom du réalisateur et 
 -- triez l'ensemble des résultats en fonction de la 
--- date de sortie de la date la plus récente à la plus ancienne
+-- date de sortie la plus récente à la plus ancienne
 
 SELECT 
     m.year,

@@ -1,4 +1,5 @@
 -- 26 - Ecrire une requete qui retourne les films vues mais jamais noté.
+
 SELECT DISTINCT w.movie_id,
     m.title
 FROM movie_watch w

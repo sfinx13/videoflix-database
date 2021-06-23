@@ -1,5 +1,5 @@
--- 6 - Écrire une requête qui retourne les titres des films 
--- réalisés par le réalisateur Woddy Allen.
+-- 6 - Écrire une requête qui retourne les titres 
+-- des films réalisés par le réalisateur Woddy Allen.
 
 SELECT m.title
 FROM movie_direction md

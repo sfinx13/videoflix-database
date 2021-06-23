@@ -1,4 +1,6 @@
--- 10 - Écrire une requête qui retourne les utilisateurs qui ont noté plus d'un film.
+-- 10 - Écrire une requête qui retourne les utilisateurs 
+-- qui ont noté plus d'un film.
+
 SELECT CONCAT(u.firstname, ' ', u.lastname) AS fullname,
     COUNT(*) AS nb_user_note
 FROM movie_review mr

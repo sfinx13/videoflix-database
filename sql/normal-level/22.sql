@@ -1,5 +1,6 @@
 -- 22 - Écrire une requête qui retourne le nombre de films et 
 -- leur note moyenne par genre et dont la note est supérieur à 4.
+
 SELECT mg.genre_id,
     g.type,
     AVG(mr.stars) as average_note,
@@ -11,3 +12,5 @@ FROM movie_genre mg
 GROUP BY mg.genre_id,
     g.type
 HAVING average_note > 4;
+
+-- NOTE: COMPATIBLE WITH SQL_MODE=ONLY_FULL_GROUP_BY

@@ -18,3 +18,5 @@ FROM
 GROUP BY mg.genre_id, director
 ORDER BY director;
 
+-- NOTE: COMPATIBLE WITH SQL_MODE=ONLY_FULL_GROUP_BY
+

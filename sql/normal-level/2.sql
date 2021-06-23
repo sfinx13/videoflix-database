@@ -1,5 +1,6 @@
 -- 2 - Écrire une requête qui retourne le nom et prénom du réalisateur 
 -- qui a réalisé un film dont il a joué un rôle.
+
 SELECT DISTINCT CONCAT(s.firstname, ' ', s.lastname) AS fullname
 FROM movie_casting mc
     INNER JOIN staff s ON s.id = mc.staff_id

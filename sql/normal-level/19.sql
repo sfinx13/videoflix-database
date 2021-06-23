@@ -1,6 +1,7 @@
 -- 19 - Écrire une requête qui retourne 
 -- tous les films avec l'année de sortie, 
 -- le(s) genre(s) et le nom du réalisateur.
+
 SELECT m.title,
     YEAR(m.released_at) AS released_year,
     GROUP_CONCAT(g.type separator ', '),
@@ -12,3 +13,5 @@ FROM movie m
     INNER JOIN staff s ON s.id = md.staff_id
 GROUP BY m.title, released_year, direction
 ORDER BY released_year DESC;
+
+-- NOTE: COMPATIBLE WITH SQL_MODE=ONLY_FULL_GROUP_BY

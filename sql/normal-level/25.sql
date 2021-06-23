@@ -1,9 +1,10 @@
 -- 25 - Ecrire une requete qui retourne les trois films 
 -- les plus vues en 2021 ainsi que leur note moyenne arrondi à l'entier supérieur
+
 SELECT m.id,
     m.title,
     SUM(w.time_watched) as total,
-    AVG(r.stars) as note
+    ROUND(AVG(r.stars),2) as note
 FROM `movie` m
     INNER JOIN movie_watch w on w.movie_id = m.id
     INNER JOIN movie_review r on r.movie_id = m.id

@@ -1,5 +1,6 @@
 -- 5 - Écrire une requête qui retourne le titre, l'année, 
 -- la date de sortie, le réalisateur et l'acteur des films dont la critique existe.
+
 SELECT m.title,
     CONCAT(
         director.firstname,

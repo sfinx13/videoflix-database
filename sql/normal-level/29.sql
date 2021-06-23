@@ -1,5 +1,6 @@
 -- 29 - Ecrire une requete qui retourne le total des films vues 
 -- par mois et année
+
 SELECT DATE_FORMAT(w.created_at, '%Y-%m') as time,
     SUM(time_watched)
 FROM `movie_watch` w

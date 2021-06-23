@@ -9,3 +9,5 @@ FROM
         INNER JOIN
     genre g ON g.id = mg.genre_id
 GROUP BY g.id, g.type
+
+-- NOTE: COMPATIBLE WITH SQL_MODE=ONLY_FULL_GROUP_BY

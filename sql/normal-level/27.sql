@@ -1,4 +1,6 @@
--- 27 - Ecrire une requete qui retourne les genres de films les plus vues de l'année de 2020.
+-- 27 - Ecrire une requete qui retourne 
+-- les genres de films les plus vues de l'année de 2020.
+
 SELECT g.type,
     COUNT(m.id) as view
 FROM movie m

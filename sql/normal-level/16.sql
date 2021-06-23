@@ -1,5 +1,6 @@
 -- 16 - Écrire une requête qui retourne tous les acteurs 
 -- qui n'ont joué dans aucun film entre 1990 et 2000.
+
 SELECT s.firstname,
     s.lastname
 FROM staff s

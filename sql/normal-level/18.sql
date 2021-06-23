@@ -1,6 +1,7 @@
 -- 18 - Écrire une requête qui retourne tous les films 
 -- avec l'année de sortie, l'année de production 
 -- et le(s) genre(s).
+
 SELECT YEAR(m.released_at) as released_at,
     m.year,
     m.title,
@@ -12,3 +13,5 @@ GROUP BY m.title,
     released_at,
     m.year
 ORDER BY year DESC;
+
+-- NOTE: COMPATIBLE WITH SQL_MODE=ONLY_FULL_GROUP_BY
