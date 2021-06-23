@@ -140,5 +140,5 @@ id      firstname       lastname
 ```
 Pour se connecter à la base en ligne de commande
 ```bash
-make mysql
+$ make mysql
 ``` 
