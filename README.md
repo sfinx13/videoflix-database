@@ -105,27 +105,25 @@ https://fr.wikipedia.org/wiki/Make
 
 
 ### Execution requete SQL
-```bash
-$ make request=1 basic
-```
 
 Pour executer la requête 23 du niveau normale
 
 ```bash
-$ make sql=23 normal
+$ make normal sql=23
 ```
 
 Pour executer la requête 10 du niveau basique
 
 ```bash
-$ make sql=10 basic
+$ make basic sql=10
 ```
 
 ```bash
-===============================================================================================================================================
+======================================================================================================
 SQL:
-===============================================================================================================================================
--- 10 - Écrire une requête qui retourne l'ID d'un acteur ou membre de la direction dont le prénom est 'Woody' et le nom de famille est 'Allen'
+======================================================================================================
+-- 10 - Écrire une requête qui retourne l'ID d'un acteur ou membre de la direction 
+-- dont le prénom est 'Woody' et le nom de famille est 'Allen'
 
 SELECT
     id, firstname, lastname
@@ -134,9 +132,9 @@ FROM
 WHERE
     firstname LIKE '%Woody%'
         AND lastname LIKE '%Allen%';
-===============================================================================================================================================
+======================================================================================================
 RESULTS:
-===============================================================================================================================================
+======================================================================================================
 mysql: [Warning] Using a password on the command line interface can be insecure.
 id      firstname       lastname
 11      Woody   Allen

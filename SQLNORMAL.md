@@ -39,7 +39,8 @@
 
 19 - Écrire une requête qui retourne tous les films avec l'année de sortie, le(s) genre(s) et le nom du réalisateur.
 
-20 - Écrire une requête qui retourne tous les films avec le titre, l'année, la date de sortie, la durée du film et le prénom et le nom du réalisateur sortis avant le 1er janvier 1989, et triez l'ensemble des résultats en fonction de la date de sortie de la date la plus récente à la plus ancienne
+20 - Écrire une requête qui retourne tous les films sorti avant le 1er janvier 1989 avec le titre, l'année, la date de sortie, la durée du film et le prénom et le nom du réalisateur et 
+triez l'ensemble des résultats en fonction de la date de sortie de la date la plus récente à la plus ancienne.
 
 21 - Écrire une requête qui calcule la durée moyenne de chaque genre de film
 
