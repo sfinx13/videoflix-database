@@ -32,5 +32,15 @@ normal:
 	@echo '=========================================================================================';
 	@docker exec -i videoflix_db bash -c 'mysql -u root -ppassword videoflix_db' < sql/normal-level/$(sql).sql
 
-mysql:
+run: 
+	@docker-compose up -d
+
+shutdown:
+	@docker-compose down
+
+mysql: .sleep
 	@docker exec -it videoflix_db bash -c 'mysql -u root -ppassword videoflix_db'
+
+.sleep:
+	@echo "Please wait...\r\n"
+	@sleep 15 
