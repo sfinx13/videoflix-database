@@ -1,5 +1,24 @@
 # Videoflix
 
+## Quelques recommandations de cours 
+
+[[fr] Cours et tutoriels sur le langage SQL](https://sql.sh/)
+
+[[fr] Modélisation de BDD](https://youtube.com/playlist?list=PLlxQJeQRaKDTepDEHUYOEiT-qCDBQvTva)
+
+[[fr] Formation MYSQL](https://youtube.com/playlist?list=PLjwdMgw5TTLUJLpzUYGBK7K5-hPgZA7zo)
+
+----
+[[en] MySQL Database - Full Course](https://youtu.be/ER8oKX5myE0)
+
+[[en] SQL Tutorial - Full Database Course for Beginners](https://youtu.be/HXV3zeQKqGY)
+
+[[en] MySQL Tutorial for Beginners](https://youtu.be/7S_tz1z_5bA)
+
+[[en] Database Design Course](https://youtu.be/ztHopE5Wnpc)
+
+[[en] MySQL Documentation](https://dev.mysql.com/doc/)
+
 ##  Modelisation et conception de base de données
 
 Videoflix est une plateforme de streaming vidéo qui permet de consulter des films à raison de 600 minutes par mois et par utilisateur.
