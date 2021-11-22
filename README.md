@@ -1,6 +1,6 @@
 # Videoflix
 
-## Quelques recommandations de cours et tutoriel sur BDD et SQL 
+## Quelques recommandations de cours, documentation de BDD, SQL, MYSQL 
 
 [[fr] Cours et tutoriels sur le langage SQL](https://sql.sh/)
 
@@ -44,7 +44,7 @@ Pour finir l'utilisateur pourra attribuer une note au film ainsi qu'un commentai
 ### Schema base de données 
 ![schema-entity-relationship-model.png](schema-database.png)
 
-#### Remarque: 
+#### Remarque
 Nous nous appuierons sur des données normalisées pour le pays et la langue 
 [ISO-3166 Country Codes and ISO-639 Language Codes](https://docs.oracle.com/cd/E13214_01/wli/docs92/xref/xqisocodes.html)
 
