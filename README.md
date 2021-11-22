@@ -1,6 +1,6 @@
 # Videoflix
 
-## Quelques recommandations de cours 
+## Quelques recommandations de cours et tutoriel sur BDD et SQL 
 
 [[fr] Cours et tutoriels sur le langage SQL](https://sql.sh/)
 
