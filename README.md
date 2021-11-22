@@ -29,10 +29,25 @@ Pour finir l'utilisateur pourra attribuer une note au film ainsi qu'un commentai
 Nous nous appuierons sur des données normalisées pour le pays et la langue 
 [ISO-3166 Country Codes and ISO-639 Language Codes](https://docs.oracle.com/cd/E13214_01/wli/docs92/xref/xqisocodes.html)
 
+## Remote environnement
 
-## Environnement
+Il est possible d'avoir une base de données MySQL avec un phpmyadmin sans avoir rien à installer. 
 
-Cet environnement fournit une base de données mysql avec un jeu de données ainsi que phpmyadmin
+Je vous propose https://remotemysql.com, il vous suffira de créer un compte pour obtenir votre base de données accéssible via phpmyadmin
+
+Pour finir uploader le dump init/videoflix_dump.sql en supprimant au préalable la ligne 1 
+```
+USE videoflix_db;
+```
+
+![schema-entity-relationship-model.png](remotemysql.png)
+
+**Pensez quand même à activer votre AD Blocker**
+
+
+## Docker environnement
+
+Cet environnement docker fournit une base de données mysql avec un jeu de données ainsi que phpmyadmin
 
 ### Pré-requis
 
